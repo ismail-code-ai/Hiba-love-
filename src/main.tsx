@@ -1,0 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import '@fontsource/noto-sans/latin-400.css';
+import '@fontsource/noto-sans/latin-ext-400.css';
+import '@fontsource/noto-sans/cyrillic-400.css';
+import '@fontsource/noto-sans/greek-400.css';
+import '@fontsource/noto-sans/vietnamese-400.css';
+import '@fontsource/noto-sans-jp/japanese-400.css';
+import '@fontsource/noto-sans-kr/korean-400.css';
+import '@fontsource/cormorant-garamond/latin-400-italic.css';
+import '@fontsource/cormorant-garamond/latin-400.css';
+import App from './App';
+import './style.css';
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
